@@ -1,0 +1,55 @@
+
+# =====================================
+# PROYECTO TIENDA DE ROPA - MONGODB
+# =====================================
+
+# Entornos virtuales de Python
+venv/
+.venv/
+env/
+API/venv/
+API/.venv/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+API/.env
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos de configuración de editores
+.vscode/
+.idea/
+*.swp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# Reportes de cobertura
+.coverage
+htmlcov/
+coverage.xml
+
+# Archivos de compilación
+build/
+dist/
